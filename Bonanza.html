@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="Bonanza.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>YOUR FEVOURITE GAMES</h1>
+      
+        <div id="add-task-section">
+            <input type="text" id="task-input" placeholder="Enter the game here...">
+            <button id="add-task-btn">Add game</button>
+        </div>
+
+        <div class="controls">
+            <button id="show-list-btn">Show games List</button>
+            <button id="hide-list-btn">Hide games List</button>
+            <button id="toggle-add-task-btn">Toggle Add games Section</button>
+        </div>
+
+    
+        <ul id="task-list">
+    
+        </ul>
+
+        <div id="task-description" class="task-description">
+            <p>Click a task to see more details!</p>
+        </div>
+    </div>
+
+    <script src="Bonanza.js"></script>
+</body>
+</html>
